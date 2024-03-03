@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "SwiftAppProject",
+   
+    "slug": "SwiftAppProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyAOll1ILKCQ4YDg9Tau1fPLz8wx9jnU6g4"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyAOll1ILKCQ4YDg9Tau1fPLz8wx9jnU6g4"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.SwiftAppProject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+     "scheme": "swiftappprojects"
+  }
+}
